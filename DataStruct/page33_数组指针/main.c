@@ -5,13 +5,18 @@
 //  Created by MAMIAN on 2016/12/16.
 //  Copyright © 2016年 Gaofei Ma. All rights reserved.
 //
+/*
+ *
+ * */
 
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
     
     int a[3][4] = {{1, 2, 3, 4}, {5, 6, 7, 8}, {9, 10, 11, 12}};
+
     int (*p)[4];
+//    int[4] *p;
     int row, col;
     p = a;
     
